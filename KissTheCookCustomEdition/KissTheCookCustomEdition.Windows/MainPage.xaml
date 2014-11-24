@@ -63,9 +63,7 @@
                 </Grid.ColumnDefinitions>
                 <Button  x:Name="favouriteRecepiesButton" Style="{StaticResource NavigationBackButtonNormalStyle}" 
         		VerticalAlignment="Top"
-        		Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
-        		AutomationProperties.Name="Back"
-        		AutomationProperties.AutomationId="BackButton"
+        		Click="favouriteRecepiesButton_Click"
         		AutomationProperties.ItemType="Navigation Button"
                          Grid.Column="0" Margin="22,0,0,0"/>
                 <TextBlock Text="Любими рецепти" Grid.Column="1"  FontFamily="Gabriola" FontSize="38" Margin="24,0,-24,0"/>

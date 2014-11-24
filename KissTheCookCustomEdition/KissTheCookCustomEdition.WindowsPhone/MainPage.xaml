@@ -21,7 +21,7 @@
             <TextBlock x:Name="pageTitle" Text="Kiss The Cook" 
                         VerticalAlignment="Top" IsHitTestVisible="false" TextWrapping="NoWrap" 
                         FontSize="60" Margin="24,61,0,0" Foreground="#DEE0B8"
-                        TextLineBounds="Full" FontFamily="Forte" SelectionChanged="pageTitle_SelectionChanged"/>
+                        TextLineBounds="Full" FontFamily="Forte"/>
         </Grid>
         <StackPanel Grid.Row="1">
             <TextBlock Text="Основно меню" FontFamily="Gabriola" FontSize="56" FontWeight="Bold" Foreground="#EFB837" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,50,-37,30" Width="342"/>

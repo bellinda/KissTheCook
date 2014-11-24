@@ -36,5 +36,10 @@ namespace KissTheCookCustomEdition
         {
             this.Frame.Navigate(typeof(Pages.NoTimePage));
         }
+
+        private void favouriteRecepiesButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Pages.Favourites));
+        }
     }
 }
